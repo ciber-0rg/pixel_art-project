@@ -3,7 +3,7 @@ const pixel = document.getElementsByClassName('pixel'); // fazendo array com tod
 const clearButton = document.querySelector('#clear-board');
 
 function makePixelGrid() {
-  const numberOfLines = 5;
+  const numberOfLines = 20;
   const pixelGrid = document.querySelector('#pixel-board');
 
   for (let index = 0; index < numberOfLines; index += 1) { // (for de fora) linha por linha. 1. entra na primeira linha. 3. vai pra segunda linha. ++
